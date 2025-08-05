@@ -29,6 +29,19 @@ npm run puppeteer
 
 This builds `appraisal.pdf` in the project root.
 
+### Full-featured sample (recommended for validation)
+
+A comprehensive sample is provided in `sample-data-full.json`. It exercises:
+- 4-level hierarchy (KRA → Goal → Sub Goal → Objective)
+- Avatars/photos, chips/pills, ratings, review panels, end markers
+- Global rating details panel on the first tab
+
+Generate the full sample PDF:
+```bash
+npm run puppeteer:full
+```
+This outputs `appraisal-full.pdf`.
+
 ## Input JSON Shape
 See `sample-data.json` for a full example. Shape:
 ```json
@@ -65,6 +78,8 @@ See `sample-data.json` for a full example. Shape:
   - Puppeteer build: uses HTML anchors (`#tab-i`) that remain clickable after PDF export.
 - Complete content hiding inside a single PDF page is not feasible with standard PDF viewers; we simulate tabs via in-document navigation.
 
+Tip: If your environment blocks external network access, replace avatar URLs and Google Fonts with locally hosted or base64-encoded assets to ensure they render before PDF export.
+
 ## Customization
 - Colors/spacing: edit palette and constants in `generate-hrms-pdf.js` or CSS in `generate-hrms-puppeteer.js`.
 - Data: replace `sample-data.json` or pass `-i your.json -o out.pdf`.
@@ -73,6 +88,7 @@ See `sample-data.json` for a full example. Shape:
 ```bash
 node generate-hrms-pdf.js -i sample-data.json -o appraisal.pdf
 node generate-hrms-puppeteer.js -i sample-data.json -o appraisal.pdf
+node generate-hrms-puppeteer.js -i sample-data-full.json -o appraisal-full.pdf
 ```
 
 ## Compatibility

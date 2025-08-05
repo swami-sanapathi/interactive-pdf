@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "reportTitle": "Assessment Stage",
+    "employee": {
+      "name": "Ranvijay Singh",
+      "code": "EMP0012",
+      "title": "Senior Product Designer • User Experience",
+      "avatar": "https://i.pravatar.cc/60?img=12"
+    },
+    "ratingDetails": {
+      "description": "Overall appraisal summary and mapped rating details for the assessment stage.",
+      "weightage": 100,
+      "score": 4.72,
+      "label": "Exceeds Expectations",
+      "manualRating": 4.8,
+      "mappedScore": 94,
+      "mappedLabel": "Outstanding",
+      "rating": 4.7
+    }
+  },
+  "tabs": [
+    {
+      "id": "job",
+      "label": "Job Competencies",
+      "sections": [
+        {
+          "title": "Manage Relationships",
+          "weightage": 80,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "labels": ["Core", "Behavioral"],
+          "description": "Builds and nurtures strong cross-functional relationships. Facilitates collaboration and constructive feedback loops.",
+          "behaviors": [
+            "Embrace continual improvement",
+            "Partner with stakeholders",
+            "Communicate with clarity and empathy"
+          ],
+          "comments": [
+            {
+              "author": "James Major",
+              "role": "Developer",
+              "stepName": "User Comment",
+              "text": "Consistently supports the team and unblocks dependencies.",
+              "avatar": "https://i.pravatar.cc/60?img=21",
+              "chips": { "progress": "On Track", "status": "Open" },
+              "rating": 4.8
+            },
+            {
+              "author": "Millard Atkins",
+              "role": "Reporting Manager",
+              "stepName": "RM Comment",
+              "text": "Demonstrates leadership in cross-team initiatives.",
+              "avatar": "https://i.pravatar.cc/60?img=5",
+              "chips": { "updatedValue": "+10%" },
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "title": "Skill Proficiency Level",
+          "weightage": 50,
+          "expectedRating": 4.5,
+          "rating": 4.6,
+          "labels": ["Technical", "UI/UX"],
+          "description": "Shows expertise in interaction design systems and prototyping workflows.",
+          "comments": [
+            {
+              "author": "Ava Collins",
+              "role": "Peer",
+              "stepName": "Peer Feedback",
+              "text": "Leads complex design reviews with actionable outcomes.",
+              "avatar": "https://i.pravatar.cc/60?img=32",
+              "chips": { "status": "Acknowledged" },
+              "rating": 4.5
+            }
+          ]
+        }
+      ],
+      "review": {
+        "title": "Job Competencies Review",
+        "text": "Excellent execution of core competencies and consistent peer collaboration.",
+        "rating": 4.7,
+        "label": "Strong"
+      },
+      "reviewEndMarker": "End of Job Competencies"
+    },
+    {
+      "id": "role",
+      "label": "Role Specific Competencies",
+      "sections": [
+        {
+          "title": "Drive Performance Excellence",
+          "weightage": 60,
+          "expectedRating": 4.5,
+          "rating": 4.5,
+          "labels": ["Delivery", "Ownership"],
+          "description": "Drives outcomes with clear prioritization and risk management.",
+          "comments": [
+            {
+              "author": "James Major",
+              "role": "Developer",
+              "stepName": "User Comment",
+              "text": "Met all sprint goals ahead of schedule.",
+              "avatar": "https://i.pravatar.cc/60?img=21",
+              "chips": { "progress": "On Track" },
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "title": "Innovate for Success",
+          "weightage": 50,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "labels": ["Innovation", "Design"],
+          "description": "Introduces experimentation frameworks and advocates for rapid prototyping.",
+          "comments": [
+            {
+              "author": "Millard Atkins",
+              "role": "Reporting Manager",
+              "stepName": "RM Comment",
+              "text": "Piloted a new design token strategy that improved efficiency.",
+              "avatar": "https://i.pravatar.cc/60?img=5",
+              "chips": { "updatedValue": "+5%" },
+              "rating": 5
+            }
+          ]
+        }
+      ],
+      "review": {
+        "title": "Role Competencies Review",
+        "text": "Strong role alignment and innovation culture contribution.",
+        "rating": 4.8,
+        "label": "Exceeds"
+      },
+      "reviewEndMarker": "End of Role Specific Competencies"
+    },
+    {
+      "id": "kras",
+      "label": "KRAs Vs Goals",
+      "sections": [
+        {
+          "title": "Enhancing Customer Satisfaction and Loyalty",
+          "weightage": 50,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "description": "Implement a comprehensive customer feedback system and achieve a 90% participation rate to gather valuable insights.",
+          "comments": [
+            {
+              "author": "Ranvijay Singh",
+              "role": "Self",
+              "stepName": "Self Comment",
+              "text": "Launched survey and reached 75% participation in the pilot.",
+              "avatar": "https://i.pravatar.cc/60?img=12",
+              "chips": { "progress": "On Track", "status": "Open" },
+              "rating": 4.7
+            }
+          ]
+        }
+      ],
+      "hierarchy": {
+        "nodes": [
+          {
+            "title": "KRA 1: Customer Experience",
+            "date": "Q1 FY24",
+            "kpi": "CSAT >= 4.5",
+            "categoryName": "Service",
+            "categoryType": "Customer",
+            "weightage": 40,
+            "priority": "High",
+            "presentStatus": "In Progress",
+            "rating": 4.6,
+            "progressPercent": 72,
+            "description": "Improve end-to-end customer touchpoints.",
+            "comments": [
+              {
+                "author": "QA Reviewer",
+                "role": "QA",
+                "stepName": "Observation",
+                "text": "NPS trending upward.",
+                "avatar": "https://i.pravatar.cc/60?img=47",
+                "chips": { "status": "Seen" },
+                "rating": 4.3
+              }
+            ],
+            "children": [
+              {
+                "title": "Goal 1.1: Feedback System",
+                "date": "Jan",
+                "kpi": "Response Rate >= 90%",
+                "weightage": 20,
+                "priority": "High",
+                "presentStatus": "On Track",
+                "rating": 4.5,
+                "progressPercent": 68,
+                "description": "Deploy multi-channel feedback.",
+                "children": [
+                  {
+                    "title": "Sub Goal 1.1.1: Channels",
+                    "date": "Week 2",
+                    "kpi": "3 Channels Live",
+                    "weightage": 10,
+                    "priority": "High",
+                    "presentStatus": "On Track",
+                    "rating": 4.7,
+                    "progressPercent": 80,
+                    "description": "Web, Email, In-App.",
+                    "children": [
+                      {
+                        "title": "Objective 1.1.1.1: In-App Widget",
+                        "date": "Thu",
+                        "kpi": "Widget CTR >= 8%",
+                        "weightage": 5,
+                        "priority": "Low",
+                        "presentStatus": "Shipped",
+                        "rating": 4.9,
+                        "progressPercent": 100,
+                        "description": "Shipped v1 with A/B test.",
+                        "comments": [
+                          {
+                            "author": "PM",
+                            "role": "Product Manager",
+                            "stepName": "Note",
+                            "text": "Saw 9.2% CTR.",
+                            "avatar": "https://i.pravatar.cc/60?img=11",
+                            "chips": { "updatedValue": "+9.2%" },
+                            "rating": 5
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "KRA 2: Operational Efficiency",
+            "date": "Q1 FY24",
+            "kpi": "Cycle Time -15%",
+            "categoryName": "Process",
+            "categoryType": "Efficiency",
+            "weightage": 30,
+            "priority": "Low",
+            "presentStatus": "In Progress",
+            "rating": 4.2,
+            "progressPercent": 40,
+            "description": "Reduce cycle time via automation.",
+            "children": []
+          }
+        ]
+      },
+      "hierarchyEndMarker": "End of KRAs Vs Goals"
+    },
+    {
+      "id": "objectives",
+      "label": "Objectives",
+      "sections": [
+        {
+          "title": "Security Hardened Release",
+          "weightage": 30,
+          "expectedRating": 4.0,
+          "rating": 4.2,
+          "labels": ["Quarterly", "Security"],
+          "description": "Complete SOC2 Type II remediation and ship hardened baseline.",
+          "comments": [
+            {
+              "author": "SecOps",
+              "role": "Security",
+              "stepName": "Review",
+              "text": "No critical findings remaining.",
+              "avatar": "https://i.pravatar.cc/60?img=55",
+              "chips": { "status": "Approved" },
+              "rating": 4.2
+            }
+          ]
+        }
+      ],
+      "review": {
+        "title": "Objectives Review",
+        "text": "Objectives tracked with clear compliance outcomes.",
+        "rating": 4.4,
+        "label": "Meets"
+      },
+      "reviewEndMarker": "End of Objectives"
+    },
+    {
+      "id": "custom",
+      "label": "Custom Questions",
+      "sections": [
+        {
+          "title": "Team Health",
+          "weightage": 10,
+          "expectedRating": 4.0,
+          "rating": 4.3,
+          "description": "Run team health checks and retrospectives bi-weekly.",
+          "comments": [
+            {
+              "author": "Scrum Master",
+              "role": "Coach",
+              "stepName": "Coach Note",
+              "text": "Participation improved after switching to anonymous mode.",
+              "avatar": "https://i.pravatar.cc/60?img=14",
+              "chips": { "progress": "Improving" },
+              "rating": 4.0
+            }
+          ]
+        }
+      ],
+      "reviewEndMarker": "End of Custom Questions"
+    },
+    {
+      "id": "potential",
+      "label": "Potential Rating",
+      "sections": [
+        {
+          "title": "Leadership Readiness",
+          "weightage": 20,
+          "expectedRating": 4.0,
+          "rating": 4.5,
+          "labels": ["Potential", "Growth"],
+          "description": "Mentors juniors and leads small initiatives.",
+          "comments": [
+            {
+              "author": "Director",
+              "role": "Leadership",
+              "stepName": "Calibration",
+              "text": "Shows promise in people leadership.",
+              "avatar": "https://i.pravatar.cc/60?img=7",
+              "chips": { "status": "Calibrated" },
+              "rating": 4.5
+            }
+          ]
+        }
+      ],
+      "reviewEndMarker": "End of Potential Rating"
+    }
+  ]
+}

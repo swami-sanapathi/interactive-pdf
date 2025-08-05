@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node generate-hrms-pdf.js -i sample-data.json -o appraisal.pdf",
     "pdfkit": "node generate-hrms-pdf.js -i sample-data.json -o appraisal.pdf",
-    "puppeteer": "node generate-hrms-puppeteer.js -i sample-data.json -o appraisal.pdf"
+    "puppeteer": "node generate-hrms-puppeteer.js -i sample-data.json -o appraisal.pdf",
+    "puppeteer:full": "node generate-hrms-puppeteer.js -i sample-data-full.json -o appraisal-full.pdf"
   },
   "keywords": ["pdf", "pdfkit", "hrms", "appraisal", "tabs", "node"],
   "author": "",
