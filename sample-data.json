@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "reportTitle": "Assessment Stage",
+    "employee": {
+      "name": "Ranvijay Singh",
+      "code": "EMP0012",
+      "title": "Senior Product Designer • User Experience"
+    }
+  },
+  "tabs": [
+    {
+      "id": "job",
+      "label": "Job Competencies",
+      "sections": [
+        {
+          "title": "Manage Relationships",
+          "weightage": 80,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "description": "This is essential job competencies required for effective performance. It highlights the skills and abilities necessary to excel in the role, ensuring that all team members meet the expected standards.",
+          "behaviors": [
+            "Embrace continual improvement",
+            "Partner with stakeholders"
+          ],
+          "comments": [
+            {
+              "author": "James Major",
+              "role": "Developer",
+              "step": "User Comment",
+              "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+            },
+            {
+              "author": "Millard Atkins",
+              "role": "Reporting Manager",
+              "step": "RM Comment",
+              "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do aliqua dolor aliqua dolor."
+            }
+          ]
+        },
+        {
+          "title": "Skill Proficiency Level",
+          "weightage": 50,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "description": "The skill proficiency level indicates how well the individual demonstrates the necessary skills for the role.",
+          "comments": [
+            {
+              "author": "James Major",
+              "role": "Developer",
+              "step": "User Comment",
+              "text": "Consistently demonstrates high quality work and collaboration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "role",
+      "label": "Role Specific Competencies",
+      "sections": [
+        {
+          "title": "Drive Performance Excellence",
+          "weightage": 60,
+          "expectedRating": 4.5,
+          "rating": 4.5,
+          "description": "Demonstrates dedication and strong work ethic throughout the period with focus on time management and cross-functional collaboration.",
+          "comments": [
+            {
+              "author": "James Major",
+              "role": "Developer",
+              "step": "User Comment",
+              "text": "Shows ownership and proactive problem solving."
+            }
+          ]
+        },
+        {
+          "title": "Innovate for Success",
+          "weightage": 50,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "description": "Encourages experimentation and learning while balancing delivery timelines.",
+          "comments": [
+            {
+              "author": "Millard Atkins",
+              "role": "Reporting Manager",
+              "step": "RM Comment",
+              "text": "Strong ideation and execution of design solutions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kras",
+      "label": "KRAs Vs Goals",
+      "sections": [
+        {
+          "title": "Enhancing Customer Satisfaction and Loyalty",
+          "weightage": 50,
+          "expectedRating": 4.5,
+          "rating": 5.0,
+          "description": "Implement a comprehensive customer feedback system and achieve a 90% participation rate to gather valuable insights.",
+          "comments": [
+            {
+              "author": "James Major",
+              "role": "Developer",
+              "step": "User Comment",
+              "text": "Launched survey and reached 75% participation in the pilot."
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "objectives", "label": "Objectives", "sections": [] },
+    { "id": "custom", "label": "Custom Questions", "sections": [] },
+    { "id": "potential", "label": "Potential Rating", "sections": [] }
+  ]
+}
